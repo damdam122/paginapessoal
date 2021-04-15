@@ -1,0 +1,33 @@
+@charset "UTF-8";
+#carouselExampleControls {
+    width: 90%;
+}
+
+#carouselExampleDark {
+    width: 80%;
+}
+
+.navbar-cor {
+    background-color: #6495ED;
+    height: 80px;
+    color: black;
+}
+
+.dropdown-menu {
+    background-color: lightseagreen;
+}
+
+a:hover {
+    display: block;
+    background-color: lightblue;
+    border-radius: 5px;
+    /*border: 2px solid #4169E1;*/
+}
+
+a {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    padding-left: 20px;
+    padding-right: 20px;
+}

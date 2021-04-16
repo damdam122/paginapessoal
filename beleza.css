@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+/*O charset "UTF-8" serve para representar todos os tipos de caracteres sem erros na página*/
+
+
+/* TAGS */
+
+
+/*A alteração na tag body serve para definir a largura do conteúdo nos diversos tipos de resoluções*/
+
+body {
+    width: 100%;
+}
+
+
+/*Alterações na tag Header:
+    Background- color: Alteramos a cor de fundo do cabeçalho para cinza.
+    Heitgh: Altura do cabeçalho é de 80 pixels.
+    Padding: A margem interna do cabeçalho é de 20 pixels.
+    */
+
+header {
+    background-color: #696969;
+    height: 80px;
+    padding: 20px;
+}
+
+
+/*Alterações na tag Footer:
+    Background- color: Altermos a cor de fundo do rodapé para cinza.
+    Heitgh: Altura do cabeçalho é de 50 pixels.
+    Padding: A margem interna do cabeçalho é de 30 pixels apenas na parte superior, enquanto as outras (inferior, direita e esquerda) são 0 pixels.
+    Text-align: O texto fica alinhado no centro.
+    color: A cor do texto é branca.
+    Text-Shadow: O sombreado do texto é de 1 pixel na cor cinza.
+    */
+
+footer {
+    background-color: #696969;
+    height: 50px;
+    text-align: center;
+    padding: 30px 0px 0px 0px;
+    color: white;
+    text-shadow: 1px 1px 1px #808080;
+}
+
+
+/* O corpo padrão possui margem 0, padding 0 e o font-family serve para dizer quais fontes o corpo terá como padrão: Helvetica e Arial*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, arial;
+}
+
+
+/*Alterações na tag H1:
+
+    Text-align: Todos os elementos da tag h1 são alinhados no centro.
+    Text-shadow: O sombreado do texto tem 1 pixel e cor cinza.
+    */
+
+h1 {
+    text-align: center;
+    text-shadow: 1px 1px 1px #696969;
+}
+
+
+/*Alterações na tag P:
+
+    Text-align: Todos os elementos da tag p são justificados.
+    Text-shadow: O sombreado do texto tem 1 pixel e cor prata.
+    Padding: A margem interna tem 10 pixels.
+    Font-size: O tamanho do texto inserido na tag p possui 20 pixels.
+    */
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #C0C0C0;
+}
+
+
+/*Alterações na tag UL:
+    Text-align: Todos os elementos da tag ul são justificados.
+    Text-shadow: O sombreado do texto tem 1 pixel e cor prata.
+    Padding: A margem interna tem 10 pixels.
+    Font-size: O tamanho do texto inserido na tag ul possui 20 pixels.
+    */
+
+ul {
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px;
+    text-shadow: 1px 1px 1px #C0C0C0;
+}
+
+
+/*Alterações na tag Table:
+ O background da tabela possui a cor cinza.
+ A borda é da tabela é branca.
+ Border-collapse: Recolhe as bordas.
+    */
+
+table {
+    border-collapse: collapse;
+    background: #696969;
+    border: white;
+}
+
+
+/*Alterações na tag Table e TR:
+ O background da tabela possui a cor cinza.
+    */
+
+table tr:nth-child(even) {
+    background: #808080;
+}
+
+
+/*Alterações nas Tags td e th:
+ Padding: A margem interna das tags td e th são de 5em.
+ A tabela possui margem o e seu texto tem o alinhamento no centro da tabela.
+ Text-align: O texto fica alinhado no centro.
+    */
+
+td,
+th {
+    padding: .5em;
+    margin: 0;
+    /*border: 1px solid #ccc;*/
+    text-align: center;
+}
+
+
+/*Alterações na tag Table:
+ A largura da tabela (width) é de 40%.
+ Margin-bottom: A margem inferior da tabela é de 1em.
+ Table-layout: O layout da tabela é fixo.
+ Text-align: O texto inserido na tabela é alinhado no centro.
+    */
+
+table {
+    width: 40%;
+    margin-bottom: .1em;
+    table-layout: fixed;
+    text-align: center;
+}
+
+
+/* ID'S */
+
+
+/*Alterações no ID Logo:
+Float: Serve para indicar o lado que algo (no caso a imagem) vai ficar dentro da div. Nesse caso, a logo fica no lado esquerdo.
+*/
+
+#logo {
+    float: left;
+}
+
+
+/*Alterações no ID Principal:
+Min-height: Indica o tamanho mínimo da div. A div "principal" possui 660 pixels no mínimo.
+Padding: A margem interna da div possui 50 pixels.
+*/
+
+#principal {
+    min-height: 660px;
+    padding: 50px;
+}
+
+
+/*Alterações no ID Foto:
+Float: Serve para indicar o lado que algo (no caso a imagem) vai ficar dentro da div. Nesse caso, a foto fica no lado esquerdo.
+Width: A foto ocupa 40% da página em sua largura.
+Padding: A margem interna da imagem possui 20 pixels na parte superior, 10 pixels na direita, 5 pixels na parte inferior e 5 pixels na esquerda.
+*/
+
+#foto {
+    float: left;
+    width: 40%;
+    padding: 20px 10px 5px 5px;
+}
+
+
+/*Alterações no ID Texto: 
+Float: Indica o lado que o texto vai ficar. Lado direito.
+Width: A largura que o texto ocupa é de 60% da página.
+*/
+
+#texto {
+    float: right;
+    width: 60%;
+}
+
+
+/*Alterações no ID Klyf:
+Float: A div do Id Klyf ficará no lado esquerdo da página.
+*/
+
+#klyf {
+    float: left;
+    /*width: 50%;
+        padding: 50px;*/
+}
+
+
+/*Alterações no ID Damdam:
+Float: A div do Id damdam ficará no lado direito da página.
+*/
+
+#damdam {
+    float: right;
+}
+
+
+/* #damdam {
+        float: right;
+        width: 50%;
+        padding: 50px;
+    } */
+
+
+/* CLASSES */
+
+
+/*Alterações na classe Container:
+        Width: a largura da classe Container possui 1000 pixels.
+        A margem é automática.
+
+*/
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+
+/*Alterações na classe Menu:
+        Float:Serve para indicar o lado que algo (no caso o menu) vai ficar dentro da div. O menu ficará no lado direito da página.
+        List-style: Serve para definir as características da lista e o none para retirar as mesmas.
+*/
+
+.menu {
+    float: right;
+    list-style: none;
+}
+
+
+/*Alterações da li (classe menu):
+        Float:Serve para indicar o lado que algo (no caso o menu) vai ficar dentro da div. O menu ficará no lado esquerdo da página.
+        Margin-top: Altera a parte superior da margem da lista. Possui 20 pixels.
+        Position: Define a posição da lista. O relative deixa na horizontal.
+*/
+
+.menu li {
+    margin-top: 20px;
+    position: relative;
+    float: left;
+}
+
+
+/*Alterações da a (classe menu):
+       color: A cor da tag a na classe menu é branca.
+       Text-decoration: Define características na decoração do texto. O none retira as características.
+       Padding: A margem interna do link possui 5 pixels nas parte superior e inferior e 10 pixels nas laterais.
+       Display: O block serve para mostrar um retângulo ao redor do menu.
+*/
+
+.menu li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    padding: 5px 10px;
+    display: block;
+}
+
+
+/*Alterações da li quando o mouse está sobre ela (classe menu):
+        Background-color: A cor do fundo muda para vermelho.
+        Font-weight: O texto fica em negrito.
+        Text-shadow: A sombra do texto é branca e possui 5 pixels.
+
+*/
+
+.menu li a:hover {
+    background-color: #E60000;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #fff;
+}
+
+
+/*Alterações da ul - alteração do menu de personagens(classe menu):
+        Background-color: A cor do fundo é vermelho.
+       Position: A posição do menu é absolute, fica na vertical.
+       Top: O espaço entre cada opção possui 25 pixels.
+       Left: Serve para estender o menu para a esquerda, caso necessário.
+       Display none: Não possui um retângulo ao redor.
+
+*/
+
+.menu li ul {
+    position: absolute;
+    top: 25px;
+    left: 0;
+    background-color: #E60000;
+    display: none;
+}
+
+
+/*Alterações do hover e over - alteração do menu de personagens(classe menu):
+        Display  block: Possui o retângulo ao redor.
+        */
+
+.menu li:hover ul,
+.menu li.over ul {
+    display: block;
+}
+
+
+/*Alterações da ul na li  - alteração do menu de personagens(classe menu):
+        Display  block: Possui o retângulo ao redor.
+        Width: A largura dos retângulos possui 200 pixels.
+        */
+
+.menu li ul li {
+    display: block;
+    width: 200px;
+}
